@@ -124,20 +124,20 @@ em strong {
     line-height: 1.5;
 }
 
-.items::before {
+.items::before{
     content: "✰";
 }
 
-.items:nth-child(2n) {
+.items:nth-child(2n){
     color: #3498db;
 }
 
 /*Aquí inicia el CSS para nuestra home*/
-.banner {
+.banner{
     width: 100%;
 }
 
-.titulo-principal {
+.titulo-principal{
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 2em;
@@ -145,19 +145,19 @@ em strong {
     clear: left;
 }
 
-.principal p {
+.principal p{
     margin: 0 0 1em;
 }
 
-.principal strong {
+.principal strong{
     font-weight: bold;
 }
 
-.principal em {
+.principal em{
     font-style: italic;
 }
 
-.utensilios {
+.utensilios{
     width: calc(10%);
     /*calcula el 10% de la pantalla del usuario*/
     float: left;
@@ -165,17 +165,17 @@ em strong {
     border-radius: 8px;
 }
 
-.mapa {
+.mapa{
     padding: 3em 0;
     margin: 0 20%;
 }
 
-.contenido-diferenciales {
+.contenido-diferenciales{
     width: 640px;
     margin: 0 auto;
 }
 
-.imagenDiferenciales {
+.imagenDiferenciales{
     width: 60%;
     border-radius: 8px;
     box-shadow: 10px 5px 5px black;
