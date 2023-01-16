@@ -134,3 +134,21 @@ footer p {
     -ms-filter:"alpha(opacity=100)";
 }
 
+@media screen and (max-width: 480px){
+    h1{
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    main {
+        width: auto;
+    }
+
+    main ul li{
+        width: 100%;
+    }
+}
+
+
